@@ -28,6 +28,11 @@ To comply with the FAIR principles of persistent and citable data, the datasets 
 ## 📜 Citation
 If you use this code or data, please cite:
 > Capozzi, A. (2025). "Talking past each other": Issue ownership and microtargeting in Swiss online political ads. arXiv preprint arXiv:2512.14564.
-
+> @article{capozzi2025talking,
+>   title={" Talking past each other": Issue ownership and microtargeting in Swiss online political ads},
+>   author={Capozzi, Arthur},
+>   journal={arXiv preprint arXiv:2512.14564},
+>   year={2025}
+> }
 ## ⚖️ License
 The code in this repository is licensed under the **MIT License**.

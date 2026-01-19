@@ -1,7 +1,7 @@
-# "Talking Past Each Other": Issue Ownership and Microtargeting in Swiss Online Political Ads
+# The direct democracy paradox: Microtargeting and issue ownership in Swiss online political ads
 
 This repository contains the source code and analysis scripts for the paper:  
-**"Talking Past Each Other": Issue Ownership and Microtargeting in Swiss Online Political Ads.**
+**The direct democracy paradox: Microtargeting and issue ownership in Swiss online political ads.**
 
 ## 📊 Project Overview
 This study presents a large-scale, data-driven analysis of 40k political ads published on Facebook and Instagram in Switzerland between 2021 and 2025. We investigate:
@@ -27,11 +27,11 @@ To comply with the FAIR principles of persistent and citable data, the datasets 
 
 ## 📜 Citation
 If you use this code or data, please cite:
-> Capozzi, A. (2025). "Talking past each other": Issue ownership and microtargeting in Swiss online political ads. arXiv preprint arXiv:2512.14564.
+> Capozzi, A. (2025). The direct democracy paradox: Microtargeting and issue ownership in Swiss online political ads. arXiv preprint arXiv:2512.14564.
 > 
 > @article{capozzi2025talking,
 >
->   title={"Talking past each other": Issue ownership and microtargeting in Swiss online political ads},
+>   title={The direct democracy paradox: Microtargeting and issue ownership in Swiss online political ads},
 >
 >   author={Capozzi, Arthur},
 >

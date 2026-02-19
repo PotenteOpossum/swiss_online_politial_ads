@@ -28,7 +28,7 @@ repo/
 ```
 
 ## 🚀 Usage
-To process the data, run:
+Before running the notebooks, process the data by running:
 ```bash
 python process_data.py
 ```

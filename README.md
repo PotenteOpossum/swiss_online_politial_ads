@@ -10,7 +10,33 @@ This study presents a large-scale, data-driven analysis of 40k political ads pub
 * **Issue Ownership (RQ3):** Patterns of topic divergence and the predictability of ad authorship using machine learning.
 
 ## 📂 Repository Structure
-* WIP
+* The repository is organized as follows:
+
+```
+repo/
+├── src/
+│   ├── __init__.py
+│   ├── models.py          # Statistical models and analysis functions
+│   ├── plot_functions.py  # Visualization functions
+│   └── prepare_data.py    # Data loading and cleaning logic
+├── process_data.py        # Main script to process data - entry point
+├── RQ1a_RQ1b.ipynb        # Analysis notebook for RQ1
+├── RQ2a_RQ2b.ipynb        # Analysis notebook for RQ2
+├── RQ3a.ipynb             # Analysis notebook for RQ3a
+├── RQ3b.ipynb             # Analysis notebook for RQ3b
+└── data/                  # Data folder
+```
+
+## ⚠️ Unused Data Files
+The following files in the `data/` directory are currently not used by the Python scripts:
+- `data/federal_election_gpt_topic.json`
+- `data/referendum_gpt_stance.json`
+
+## 🚀 Usage
+To process the data, run:
+```bash
+python process_data.py
+```
 
 ## 🛠️ Data Access
 To comply with the FAIR principles of persistent and citable data, the datasets underlying this analysis are archived on **Zenodo**.

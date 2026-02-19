@@ -1,0 +1,16 @@
+# Data folders
+data/
+shab_graph_outputs*/
+shab_graph_outputs_production/
+shab_graph_outputs_test*/
+
+# System & Python
+__pycache__/
+*.pyc
+.DS_Store
+.env
+venv/
+
+# Large output files
+*.json
+*.csv

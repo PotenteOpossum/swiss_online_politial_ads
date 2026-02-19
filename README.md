@@ -27,28 +27,37 @@ repo/
 └── data/                  # Data folder
 ```
 
-## ⚠️ Unused Data Files
-The following files in the `data/` directory are currently not used by the Python scripts:
-- `data/federal_election_gpt_topic.json`
-- `data/referendum_gpt_stance.json`
-
 ## 🚀 Usage
 To process the data, run:
 ```bash
 python process_data.py
 ```
 
-## 🛠️ Data Access
+## Data Access
 To comply with the FAIR principles of persistent and citable data, the datasets underlying this analysis are archived on **Zenodo**.
 
-| File | Description |
-| :--- | :--- |
-| `ads.zip` | Raw text and metadata of ads disaggregated by language (German, French, Italian). |
-| `federal_elections_authors_annotation.csv` | Manual labels for 943 pages (party affiliation, entity type, etc.). |
-| `federal_election_gpt_topic.json` | GPT-4o annotations for election relevance and topic keywords. |
-| `referendum_gpt_stance.json` | GPT-4o annotations for referendum relevance and Yes/No stance. |
+**Data Link:** 10.5281/zenodo.18702491
 
-**Data Link:** 10.5281/zenodo.18256330
+### Data Files
+The Zenodo repository includes the following files:
+
+* **ads.zip**: A compressed archive containing the raw text and metadata of the collected advertisements. The data is organized into three sub-folders by language: German (DE), French (FR), and Italian (IT).
+
+* **federal_elections_authors_annotation.csv**: A manually curated list of authors who published at least one ad in the 30 days preceding the 2023 Swiss federal elections. Each author is labeled with:
+  * Political affiliation.
+  * Relevance to the federal election.
+  * Entity type (Party, NGO, Newspaper, Committee, Union, or Association).
+  * Specific linkage to a political party or individual politician.
+
+* **federal_gpt_answ.json**: Results of an automated annotation process using GPT-4o for ads published within the 30-day window of the federal election. It identifies whether an ad is election-relevant and provides up to three thematic keywords describing the ad's topic.
+
+* **referendum_gpt_answ.json**: Annotated data for ads published within 30 days of the 42 referenda held during the study period. This file identifies the ad's relevance to a specific referendum and its stance ("Yes", "No", or "Neutral") as determined by GPT-4o.
+
+* **referendums_topic.json**: Official dataset containing the title, date, and description for each referendum.
+
+* **refimp_with_results_and_participation.csv**: Official dataset detailing the results and voter turnout for each referendum.
+
+* **topic_mapping.json**: A classification of referendums into 12 primary categories, clustered using GPT-4o.
 
 
 ## 📜 Citation
